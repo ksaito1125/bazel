@@ -12,4 +12,4 @@ setup: bazel-$(VER)-installer-linux-x86_64.sh
 	@echo see dotfiles/.bash.d/homebin.sh
 
 bazel-$(VER)-installer-linux-x86_64.sh:
-	curl -OL https://github.com/bazelbuild/bazel/releases/download/1.1.0/bazel-1.1.0-installer-linux-x86_64.sh
+	curl -OL https://github.com/bazelbuild/bazel/releases/download/$(VER)/bazel-$(VER)-installer-linux-x86_64.sh
